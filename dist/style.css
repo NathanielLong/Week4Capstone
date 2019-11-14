@@ -1,0 +1,9 @@
+.FOOD {
+  font-family: monospace;
+  font-size: 3em;
+  border: 2px solid black;
+  /*topbottom = 2px left/right = 6px*/ 
+  padding: 2px 6px;
+  border-radius: 4px;
+  
+}

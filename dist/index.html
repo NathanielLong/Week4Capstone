@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Week 4 Capstone</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<title>Grocery Store</title>
+<h1>Grocery Store</h1>
+<h3>Please select the items you wish to purchase:</h3>
+<br>
+  <button class="btn btn-primary btn-sm"  onclick="addFood(0)">Apples: $0.99</button>
+  <button class="btn btn-primary btn-sm" onclick="addFood(1)">Oranges: $1.99</button>
+  <button class="btn btn-primary btn-sm" onclick="addFood(2)">Brocoli: $2.99</button>
+  <button class="btn btn-primary btn-sm" onclick="addFood(3)">Brussel Sprouts: $3.99</button>
+  <button class="btn btn-primary btn-sm" onclick="addFood(4)">Fish: $4.99</button>
+  <button class="btn btn-primary btn-sm"  onclick="addFood(5)">Premium Steak: $599.99</button>
+<br>
+<h3>Please select done when you have completed your purchase</h3>
+
+<button class="btn btn-primary btn-sm" role="button" onclick="getTotal();">Done</button>
+ <p><span id="total" class="FOOD"> Total? </span></p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
